@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Simonetta&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+#logo {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Salsa', cursive;
+    height: 8vh;
+    background-color: #033E5E;
+    opacity: 0.99;
+}
+.nav-list li a {
+    font-family: 'Salsa', cursive;
+    color: #ffff;
+    font-size: 20px;
+    text-decoration: none; 
+    padding: 5px;
+}
+.nav-list {
+    list-style: none;
+    display: flex;  
+}
+.nav-list li a:hover {
+    cursor: pointer;
+   border-bottom: 1px solid transparent;
+   border-bottom: 1px solid white;
+}
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+#imagem-fundo {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imagens/img-fundo.jpg");
+    background-size: cover;
+    
+}
+#title {
+    color: white;
+   position: absolute;
+   top: 60%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: 'Simonetta', cursive;
+}
+#title p {
+    text-align: center;
+    font-size: 25px;
+}
+#title h1 {
+    text-align: center;
+    font-size: 55px;
+}
+#retangulo2 {
+    position: relative;
+    width: 100%;
+    height: 654px;
+    background-color: #CCD3DD;
+}
+.texto-sobre {
+    position: absolute;
+    top: 40%;
+    left: 30% ;
+    transform: translate(-30%);
+    text-align: center;
+    max-width: 500px;
+    height: 300px;
+}
+.texto-sobre h1{
+    margin-bottom: 50px;
+    color: #033E5E;
+    max-width: 400px;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Salsa', cursive;
+    margin-top: -70px;
+    
+}
+.texto-sobre p {
+    height: 15vh;
+    font-family: 'Salsa', cursive;
+    font-size: 32px;
+    color: #202020d0;
+    text-align: left;
+}
+#img-rafa{
+    max-width: 360px;
+    height: 322px;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+}
+
+.div-botao-download {
+    text-align: center; 
+    max-width: 165px;
+    position: absolute;
+    top: 80%;
+    left: 31%;
+    transform: translate(-33%);
+    
+}
+.botao-download {
+    list-style: none;
+}
+.botao-download a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+  
+}
+.menu-mobile {
+    cursor: pointer;
+    display: none;
+}
+
+.menu-mobile div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;  
+}
+#botao-mobile {
+    display: none;
+}
+#retangulo3 {
+    position: relative;
+    width: 100%;
+    height: 494px;;
+    background-color: #033E5E; 
+}
+.div-h1-escolaridade {  
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+
+}
+.div-h1-escolaridade h1 {
+    color: rgba(255, 255, 255, 0.815);
+    max-width: 400px;
+    font-size: 40px;
+    font-family: 'Salsa', cursive;    
+}
+.div-list-escolaridade {
+    position: absolute;
+    top: 20vh;
+    left: 5vw;
+}
+.list-escolaridade li {
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 17px;
+    margin-top: 25px;
+    max-width: 554px;
+}
+#retangulo4 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color:  #CCD3DD;
+}
+.div-h1-cursos {
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%);
+    text-align: center;
+    max-width: 317px;
+}
+.div-h1-cursos h1 {
+    color: #033E5E;
+    max-width: 400px;
+    font-size: 40px;
+    font-family: 'Salsa', cursive; 
+}
+#tabela-cursos {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+table th {
+    font-size: 18px;
+    font-weight: bold;
+}
+table tr th, td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+table tr td a {
+    text-decoration: none;
+    color: black;
+}
+#retangulo5 {
+    position: relative;
+    width: 100%;
+    height: 850px;
+    background-color: #033E5E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-h1-projetos {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.div-h1-projetos h1 {
+    color: rgba(255, 255, 255, 0.815);
+    max-width: 400px;
+    font-size: 40px;
+    font-family: 'Salsa', cursive;
+}
+#img-projeto1 {
+    margin-top: 15vh;
+    border-radius: 15px;
+}
+.botao-acessar {
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    display:  block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Salsa', cursive; 
+}
+.botao-acessar:hover {
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(90, 20, 220));
+    color: white;
+}
+#rodape {
+    position: relative;
+    width: 100%;
+    height: 221px;
+}
+#contato {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#contato p {
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Salsa', cursive; 
+}
+#link-contatos ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+#direito-uso p {
+    margin-top: 25px;
+}
+
+
+
+@media (max-width: 1124px) {
+    .texto-sobre {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%);
+        text-align: center;
+     }
+     .texto-sobre h1 {
+         text-align: center;
+         font-size: 50px;    
+     }
+     .texto-sobre p {
+        display: block;
+       font-size: 25px;
+     }
+     .div-botao-download {
+        width: 300px;
+        position: relative;
+        top: 550px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+@media (max-width: 950px) {
+    #nav.active .nav-list {
+        display: block;
+    }
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 100vw;
+        display: block;
+        background-color: #23232e;        
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transition: transform 0.3s ease-in;
+        display: none;
+        z-index: 1000;
+    }
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+        text-align: center;
+        padding: 25px;
+        border-bottom: 1px solid white;
+    }
+    .menu-mobile {
+        display: block;
+    } 
+    .active-nav {
+        display: block;
+        
+    }
+    .active-nav li {
+        opacity: 100;
+    }
+    #img-rafa {
+        display: none;
+    }
+    .retangul2 {
+        position: relative;
+        width: 100vw;
+        
+    }
+    .texto-sobre {
+       position: absolute;
+       top: 25%;
+       left: 50%;
+       transform: translate(-50%);
+       text-align: center;
+    }
+    .texto-sobre h1 {
+        text-align: center;
+        font-size: 50px;    
+    }
+    .texto-sobre p {
+        display: block;
+      font-size: 25px;
+    }
+    .div-botao-download {
+        width: 300px;
+        position: relative;
+        top: 550px;
+        left: 50%;
+        transform: translate(-50%); 
+    }
+    #retangulo4 {
+        height: 1000px;   
+    }
+    table {
+        margin-top: -15vh;
+    }
+    table tr th, td {
+        padding: 8px;
+    }
+}
+
+@media (max-width:570px) {
+    #title h1 {
+        font-size: 30px;
+    }
+    #title p {
+        font-size: 17px;
+    }
+    .div-h1-cursos {
+        position: absolute;
+        left: 50%;
+        top: 5%;
+        transform: translate(-50%);
+        text-align: center;
+        max-width: 317px;
+    }
+
+}
+
+@media (max-width:551px) {
+    .texto-sobre h1 {
+        font-size: 40px;
+    }
+    .texto-sobre p {
+        font-size: 24px;
+    }
+    #img-projeto1 {
+        margin-top: -90px;
+        width: 70vw;
+        height: 40vh;
+        background-size: cover;
+    }
+}
+@media (max-width:1130px) {
+    #img-rafa {
+        display: none;
+    }
+}
+
+@media (max-width:380px) {
+    #retangulo4 {
+        height: 800px;
+    }
+    #tabela-cursos {
+        width: 100%;
+        height: 650px;
+        margin-top: 60%;
+    }
+    table tr th, td {
+        padding: 4px;
+        font-size: 14px;
+    }
+    .div-h1-cursos h1 {
+        font-size: 34px;
+    }
+}
