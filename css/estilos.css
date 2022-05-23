@@ -415,6 +415,12 @@ table tr td a {
         height: 40vh;
         background-size: cover;
     }
+    #retangulo5 {
+        height: 700px;
+    }
+    #img-projeto1 {
+        margin-top: 15vh;
+    }
 }
 @media (max-width:1130px) {
     #img-rafa {
@@ -429,7 +435,7 @@ table tr td a {
     #tabela-cursos {
         width: 100%;
         height: 650px;
-        margin-top: 60%;
+        margin-top: 40%;
     }
     table tr th, td {
         padding: 4px;
@@ -446,7 +452,7 @@ table tr td a {
     }
     #tabela-cursos {
         position: absolute;
-        top: 80%;
+        top: 76%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100%;
@@ -460,4 +466,7 @@ table tr td a {
     .list-escolaridade li {
         font-size: 14px;
     }  
+    .div-h1-cursos h1 {
+        font-size: 30px;
+    }
 }
