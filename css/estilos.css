@@ -67,7 +67,7 @@ nav {
     text-align: center;
     font-size: 25px;
 }
-#title h1 {
+#title h2 {
     text-align: center;
     font-size: 55px;
 }
@@ -86,7 +86,7 @@ nav {
     max-width: 500px;
     height: 300px;
 }
-.texto-sobre h1{
+.texto-sobre h2{
     margin-bottom: 50px;
     color: #033E5E;
     max-width: 400px;
@@ -130,7 +130,9 @@ nav {
     padding: 20px;
     border: none;
     border-radius: 4px;
-  
+}
+.botao-download a:hover {
+    background-color: rgba(27, 26, 26, 0.808);
 }
 .menu-mobile {
     cursor: pointer;
@@ -159,7 +161,7 @@ nav {
     transform: translate(-50%);
 
 }
-.div-h1-escolaridade h1 {
+.div-h1-escolaridade h2 {
     color: rgba(255, 255, 255, 0.815);
     max-width: 400px;
     font-size: 40px;
@@ -190,7 +192,7 @@ nav {
     text-align: center;
     max-width: 317px;
 }
-.div-h1-cursos h1 {
+.div-h1-cursos h2 {
     color: #033E5E;
     max-width: 400px;
     font-size: 40px;
@@ -230,7 +232,7 @@ table tr td a {
     left: 50%;
     transform: translate(-50%);
 }
-.div-h1-projetos h1 {
+.div-h1-projetos h2 {
     color: rgba(255, 255, 255, 0.815);
     max-width: 400px;
     font-size: 40px;
@@ -291,7 +293,7 @@ table tr td a {
         transform: translate(-50%);
         text-align: center;
      }
-     .texto-sobre h1 {
+     .texto-sobre h2 {
          text-align: center;
          font-size: 50px;    
      }
@@ -358,7 +360,7 @@ table tr td a {
        transform: translate(-50%);
        text-align: center;
     }
-    .texto-sobre h1 {
+    .texto-sobre h2 {
         text-align: center;
         font-size: 50px;    
     }
@@ -385,7 +387,7 @@ table tr td a {
 }
 
 @media (max-width:570px) {
-    #title h1 {
+    #title h2 {
         font-size: 30px;
     }
     #title p {
@@ -403,7 +405,7 @@ table tr td a {
 }
 
 @media (max-width:551px) {
-    .texto-sobre h1 {
+    .texto-sobre h2 {
         font-size: 40px;
     }
     .texto-sobre p {
@@ -432,16 +434,16 @@ table tr td a {
     #retangulo4 {
         height: 800px;
     }
-    #tabela-cursos {
-        width: 100%;
+    /* #tabela-cursos {
+        width: 100vw;
         height: 650px;
         margin-top: 40%;
-    }
+    } */
     table tr th, td {
         padding: 4px;
         font-size: 14px;
     }
-    .div-h1-cursos h1 {
+    .div-h1-cursos h2 {
         font-size: 34px;
     }
 }
@@ -449,6 +451,12 @@ table tr td a {
 @media (max-width:290px){
     #retangulo4 {
         height: 600px;
+    }
+    table {
+        position: absolute;
+        top: 180px;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     #tabela-cursos {
         position: absolute;
@@ -466,7 +474,7 @@ table tr td a {
     .list-escolaridade li {
         font-size: 14px;
     }  
-    .div-h1-cursos h1 {
+    .div-h1-cursos h2 {
         font-size: 30px;
     }
 }
